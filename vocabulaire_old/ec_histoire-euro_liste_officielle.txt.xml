@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<vocabulaire l1='' l2='français' >
+<mot l1="der Staat(en)" l2="l'Etat" />
+<mot l1="staatlich" l2="gouvernemental/d'Etat" />
+<mot l1="das Staatsgebet(e)" l2="le territoire national" />
+<mot l1="die Staatsangehörigkeit" l2="la citoyenneté/la nationalité" />
+<mot l1="der Bürger(-)" l2="le citoyen" />
+<mot l1="der Mitbürger(-)" l2="le concitoyen" />
+<mot l1="die Nation(en)" l2="la nation" />
+<mot l1="national" l2="national" />
+<mot l1="das Volk(¨er)" l2="le peuple" />
+<mot l1="die Heimat" l2="la petite patrie" />
+<mot l1="das Vaterland(¨er)" l2="la patrie" />
+<mot l1="das Ausland" l2="les pays étrangers" />
+<mot l1="der Ausländer(-)" l2="l'étranger" />
+<mot l1="die Ausländerfeindlichkeit" l2="la xénophobie" />
+<mot l1="ausländerfeindlich" l2="xénophobe" />
+<mot l1="die Verfassung" l2="la constitution" />
+<mot l1="das Grundgesetz" l2="la loi fondamentale" />
+<mot l1="das System(e)" l2="le système" />
+<mot l1="die Gewaltenteilung" l2="la séparation des pouvoirs" />
+<mot l1="der Rechtsstaat(en)" l2="l'Etat de droit" />
+<mot l1="die Demokratie(n)" l2="la démocratie" />
+<mot l1="der Demokrat(en,en)" l2="le démocrate" />
+<mot l1="demokratisch" l2="démocratique" />
+<mot l1="parlamentarisch" l2="parlementaire" />
+<mot l1="die Freiheit(en)" l2="la liberté" />
+<mot l1="die Regierungsform(en)/das Regime" l2="le régime" />
+<mot l1="die Republik(en)" l2="la république" />
+<mot l1="die Diktatur(en)" l2="la dictature" />
+<mot l1="der Totalitarismus" l2="le totalitarisme" />
+<mot l1="totalitär" l2="totalitaire" />
+<mot l1="das Exil" l2="l'exil" />
+<mot l1="der Flüchtling(e)" l2="le réfugié" />
+<mot l1="der Asylant" l2="le demandeur d'asile" />
+<mot l1="der deutsche Nationalfeiertag" l2="la fête nationale allemande" />
+<mot l1="ausgebürgert werden" l2="être déchu de sa nationalité" />
+<mot l1="auswandern" l2="émigrer" />
+<mot l1="flüchten" l2="se réfugier" />
+<mot l1="ins Exil gehen" l2="vivre en exil" />
+<mot l1="die Politik" l2="la politique" />
+<mot l1="der Politiker(-)" l2="l'homme politique" />
+<mot l1="politisch" l2="politique" />
+<mot l1="der Gegner(-)" l2="l'opposant/l'adversaire" />
+<mot l1="der Feind(e)" l2="l'ennemi" />
+<mot l1="beliebt/populär" l2="populaire" />
+<mot l1="unbeliebt" l2="impopulaire" />
+<mot l1="umstritten" l2="controversé" />
+<mot l1="glaubwürdig" l2="crédible" />
+<mot l1="korrupt" l2="corrompu" />
+<mot l1="die Korruption(s)" l2="la corruption" />
+<mot l1="das Parlament(e)" l2="le parlement" />
+<mot l1="die Nationalversammlung" l2="l\'assemblée nationale" />
+<mot l1="die Nationalversammlung auflösen" l2="dissoudre l\'assemblée nationale" />
+<mot l1="der Senat" l2="le Sénat" />
+<mot l1="das Abgeordnetenhaus" l2="la chambre des députés" />
+<mot l1="der Abgeordnete(adj.subs.)" l2="le député" />
+<mot l1="die Fraktion(en)" l2="le groupe parlementaire" />
+<mot l1="tagen" l2="siéger" />
+<mot l1="die Sitzung" l2="la réunion/la séance" />
+<mot l1="ein Gesetz besprechen" l2="discuter une loi" />
+<mot l1="ein Gesetz annehmen" l2="adopter une loi" />
+<mot l1="ein Gesetz abnehmen" l2="repousser une loi" />
+<mot l1="das Mitglied(er)" l2="le membre" />
+<mot l1="die Partei(en)" l2="le parti" />
+<mot l1="gründen" l2="fonder" />
+<mot l1="die Strömung" l2="le courant" />
+<mot l1="die Weltanschauung(en)" l2="la vision du monde/la conception du monde" />
+<mot l1="die Ideologie(n)" l2="l\'idéologie" />
+<mot l1="gemäßigt" l2="modéré" />
+<mot l1="liberal" l2="libéral" />
+<mot l1="radikal" l2="radical" />
+<mot l1="der Faschismus" l2="le fascisme" />
+<mot l1="der Faschist(en,en)" l2="le fasciste" />
+<mot l1="verurteilen" l2="condamner" />
+<mot l1="der Neonazi(s)" l2="le néonazi/le néo-nazi" />
+<mot l1="neonazistisch" l2="néonazi/néo-nazi" />
+<mot l1="rechtsradikal" l2="d\'extrême droite" />
+<mot l1="die äußerte Rechte" l2="l\'extrême droite" />
+<mot l1="die Rechte" l2="la droite" />
+<mot l1="die Rechtspartei(en)" l2="le parti de droite" />
+<mot l1="konservativ" l2="conservateur" />
+<mot l1="der Zentrist(en,en)" l2="le centriste" />
+<mot l1="fortschrittlich/progressiv" l2="progressiste" />
+<mot l1="die Linke(n)" l2="la gauche" />
+<mot l1="die Linkspartei(en)" l2="le parti de gauche" />
+<mot l1="sozialistisch" l2="socialiste" />
+<mot l1="der Sozialist(en,en)" l2="le socialiste" />
+<mot l1="der Sozialismus(en)" l2="le socialisme" />
+<mot l1="kommunistisch" l2="communiste" />
+<mot l1="der Kommunist(en,en)" l2="le communiste" />
+<mot l1="der Kommunismus" l2="le communisme" />
+<mot l1="der Linksextremus" l2="le gauchisme" />
+<mot l1="der Linksextremist(en,en)/der Linksradikale(adj.subs.)" l2="le gauchiste" />
+<mot l1="der Grüne(adj.subs.)" l2="le vert" />
+<mot l1="linksgesinnt sein" l2="être de gauche" />
+<mot l1="in eine Partei eintreten/einer Partei beitreten" l2="adhérer à un parti" />
+<mot l1="politisch aktiv sein/politisch engagiert sein" l2="militer politiquement" />
+<mot l1="das aktive Parteimitglied" l2="le militant politique" />
+<mot l1="aus der Partei austreten" l2="quitter le parti" />
+<mot l1="aus der Partei ausgeschlossen werden" l2="être exclu du parti" />
+<mot l1="in der Opposition bleiben/in der Opposition verharren" l2="rester dans l\'opposition" />
+<mot l1="einen neuen Kurs einschlagen" l2="changer de cap" />
+<mot l1="in einen Finanzskandal verwickelt sein" l2="être mêlé à un scandale financier" />
+<mot l1="verwickelt sein" l2="être impliqué" />
+<mot l1="aus politischen Gründen" l2="pour des raisons politiques" />
+<mot l1="die Wahl(en)" l2="l\'élection" />
+<mot l1="jemanden wählen" l2="voter pour quelqu\'un" />
+<mot l1="gegen etwas stimmen" l2="voter contre quelque chose" />
+<mot l1="der Wahlkampf(¨e)/die Wahlkampagne" l2="la campagne électorale" />
+<mot l1="fair" l2="loyal" />
+<mot l1="unfair" l2="déloyal" />
+<mot l1="demagogisch" l2="démagogique" />
+<mot l1="das Wahllokal(e)" l2="le bureau de vote" />
+<mot l1="der Wahlzettel(-)" l2="le bulletin de vote" />
+</vocabulaire>

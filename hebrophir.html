@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Hébrophir</title>
+<style>
+html {
+    background-color:black;
+    color:white;
+}
+h1{
+text-align:center;
+}
+.lang {
+   width:46%;
+   display:inline-block;
+   background-color:#99F;
+   font-size:2em;
+   min-height:30px;
+   padding:10px;
+   border-radius:10px;
+    border:1px solid white;
+    color:black;
+    box-shadow: 0 5px 5px white;
+}
+.couple {
+    width : 100%;
+    padding: 2px;
+    margin-top:20px;
+}
+</style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ophir.lojkine.free.fr/Ivoca/hebrophir.js"></script>
+<script>
+$(document).ready(function(){
+
+    function newCouple (oldCouple) {
+        var couple = oldCouple.clone(true);
+        couple.find(".lang").text('');
+        oldCouple.after(couple);
+        couple.find(".fr").focus();
+    }
+
+    function updateHbr (evt){
+//        console.log(evt.which);
+
+        var $fr = $(this);
+        var $hbr = $fr.next();
+        var txt = $fr.text();
+        var hbrtxt = hebrophir.equiv(txt);
+        $hbr.text(hbrtxt);
+
+
+        //Enter
+        if (evt.which===13) {
+            newCouple($fr.parent());
+            $fr.text(txt);
+        }
+    }
+
+    $(".fr").keyup(updateHbr);
+    $(".fr").each(updateHbr);
+    
+    $("#printequiv").click(function(){
+        var $couple = $(".couple").clone(true);
+
+
+        var h=hebrew.hashes, str="";
+        for (var i=0;i<h.length;i++){
+            for (var letter in h[i]){
+                str+=letter;
+            }
+        }
+        $couple.find(".fr").text(str).keyup();
+        $("#couples").append($couple);
+    })
+})
+</script>
+</head>
+
+<body>
+<h1>Hébrophir</h1>
+<div id="couples">
+
+    <div class="couple">
+        <div class="lang fr" contenteditable="true">beré'shyt bârâ' 'elohym 'ét hashamaym we'ét ha'arèts</div>
+        <div class="lang hbr" dir="rtl"></div>
+    </div>
+
+    <div class="couple">
+        <div class="lang fr" contenteditable="true">shlm, qwr' ly 'ôfyr.</div>
+        <div class="lang hbr" dir="rtl"></div>
+    </div>
+
+    <div class="couple">
+        <div class="lang fr" contenteditable="true">barouch 'ataah yy 'èloheynou mèlèch ha_olaam.</div>
+        <div class="lang hbr" dir="rtl"></div>
+    </div>
+
+    <div class="couple">
+        <div class="lang fr" contenteditable="true"><b>Modifiez-moi!</b></div>
+        <div class="lang hbr" dir="rtl"></div>
+    </div>
+</div>
+
+</body>
+</html>

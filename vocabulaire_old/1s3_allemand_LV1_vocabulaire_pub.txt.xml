@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<vocabulaire l1='allemand' l2='français' >
+<mot l1="der Konsument(en)" l2="le consommateur" />
+<mot l1="der Konsum" l2="la consommation" />
+<mot l1="der Absatz" l2="la vente" />
+<mot l1="der Werbespot" l2="le spot publicitaire" />
+<mot l1="das Zielpublikum" l2="le public cible" />
+<mot l1="die Kauflust" l2="l'envie d'acheter" />
+<mot l1="der Werbespruch" l2="le slogan" />
+<mot l1="schlapp" l2="mou" />
+<mot l1="gelungen" l2="réussi" />
+<mot l1="schlank" l2="mince" />
+<mot l1="die Magersucht" l2="l'anorexie" />
+<mot l1="sterben" l2="mourir" />
+<mot l1="fetthaltig" l2="qui fait grossir" />
+<mot l1="auslösen" l2="déclencher" />
+</vocabulaire>

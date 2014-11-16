@@ -1,0 +1,3 @@
+die Kehrseite=le revers de la médaille
+die Werbung=la publicité
+werben=faire de la publicité

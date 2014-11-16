@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" media="screen" type="text/css" title="Design" href="style.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="vocabulaire, apprendre, lesson, ajax" />
+  <meta name="description" content="Un interrogateur de vocabulaire en AJAX." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Ivoca -  Interrogation de vocabulaire</title>
+
+  <script type="text/javascript" src="../jQuery/jquery.min.js" ></script>  
+  <script type="text/javascript" src="ivoca.js" ></script>
+  <script type="text/javascript" src="hebrophir.js" ></script>
+
+</head>
+
+<body>
+<header>
+    <a href="index.php">Ivoca</a> -  Interrogation de vocabulaire
+    <a href="javascript:void(0)" id="recommencer" >↺</a>
+</header>
+
+<div  id="resultat" >
+	<p id="consigne" >Traduisez <span id="langue" ></span> : </p>
+	<span id="question" >Chargement de l'application...</span>
+	<a id="afficherReponse" href="javascript:void(0)" >Voir la réponse</a>
+	<div id="correction" ><a id="reponse" href="javascript:void(0)"></a></div>
+</div>
+
+
+<form class="formulaire" id="formulaire" action="javascript:void(0)">
+
+<p>
+		<label  for="texte">Votre réponse : </label><br />
+		<input type="text" name="texte" id="texte" autocomplete="off" autofocus/>
+</p>
+	<input type="submit" id="boutonValider" value="Valider"/>
+</form>
+
+
+
+<div class="score">
+<p>
+    Nombre de réponses justes: <br />
+    <b id="points">0</b> / <b id="nbrMots">0</b> (<b id="pourcentage">100</b>%)
+</p>
+<p>
+    <b id="nbrMotsTotal">0</b> mots dans la liste
+</p>
+</div>
+
+<footer>
+Ivoca, par Ophir LOJKINE
+</footer>
+</body>
+</html>

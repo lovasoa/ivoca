@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "Linux Libertine";
+	src: url('linux-libertine.otf');
+}
+
+body {
+    font-family: "Linux Libertine";
+    background-color:black;
+	background-image:url(space.jpg);
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color:white;
+    margin:0;
+    margin-bottom:50px;
+    box-shadow:0px 0px 20px grey;
+    width:100%;
+    font-size:20px;
+    padding-top:5px;
+    position:fixed; top:0; left:0;
+}
+
+header h1 {
+    display:inline;
+}
+
+#main {
+    font-size:1.2em;
+    margin-top:0px;
+    margin-left:5%;
+    width:85%;
+    background-color:white;
+    border-radius:3px;
+    padding:10px;
+    padding-top:100px;
+    font-family:"Free Sans";
+}
+
+#main table {
+    width:100%;
+}
+
+#main table th input {
+    font-weight:bold;
+}
+
+#main input {
+    font-size:1.2em;
+    border:1px solid grey;
+    width:100%;
+    border-radius:5px;
+    font-family: "Linux Libertine";
+    letter-spacing:1px;
+    transition-duration:1s;
+}
+
+#main span.hebrophir {
+    font-size:30px;
+}
+
+#main input:focus {
+    box-shadow:0px 0px 10px #99F;
+}
+
+#buttons{
+    float:right;
+    margin-top:10px;
+    padding:10px;
+}
+#buttons button {
+    margin:0;
+}
+
+.highlight {
+ animation: blink 2s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+}
+
+@keyframes blink
+{
+from {box-shadow:0px 0px 2px #9EF;}
+to {box-shadow:0px 0px 10px #9EF;}
+}

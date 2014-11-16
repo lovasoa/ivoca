@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<vocabulaire l1='' l2='français' >
+<mot l1="﻿accipio, is, ere, accepi, acceptum" l2="recevoir/entendre dire" />
+<mot l1="ago, is, ere, egi, actum" l2="faire/agir" />
+<mot l1="amitto, is, ere, amisi, amissum" l2="perdre" />
+<mot l1="arbitror, aris, ari, arbitratus sum" l2="penser" />
+<mot l1="cedo, is, ere, cessi, cessum" l2="céder à/siéloigner" />
+<mot l1="cogo, is, ere, coegi, coactum" l2="forcer/réunir" />
+<mot l1="colo, is, ere, colui, cultum" l2="cultivar/vénérer" />
+<mot l1="condo, is, ere, condidi, conditum" l2="fonder" />
+<mot l1="conor, aris, ari, conatus sum" l2="s'efforcer de" />
+<mot l1="credo, is, ere, credidi, creditum" l2="croire/faire confiance à" />
+<mot l1="cunctor, aris, ari, cunctatus sum" l2="hésiter" />
+<mot l1="cupio, is, cupere, cupivi, cupitum" l2="désirer" />
+<mot l1="debeo, es, ere, debui, dubitum" l2="devoir" />
+<mot l1="defendo, is, ere, defendi, defensum" l2="défendre" />
+<mot l1="deleo, es, ere, delevi, deletum" l2="détruire" />
+<mot l1="dico, is, ere, dixi, dictum" l2="dire" />
+<mot l1="disco, is, discere, didici, -" l2="étudier" />
+<mot l1="do, das, dare, dedi, datum" l2="donner" />
+<mot l1="doceo, es, ere, docui, doctum" l2="enseigner" />
+<mot l1="duco, ducis, ere, duxi, ductum" l2="conduire" />
+<mot l1="egredior, egrederis, egredi, egressus sum" l2="sortir" />
+<mot l1="erro, as are, erravi, erratum" l2="se tromper/errer" />
+<mot l1="existimo, as, are, existimavi, existimatum" l2="penser" />
+<mot l1="exspecto, as, are, espectavi, exspectatum" l2="attendre" />
+<mot l1="facio, is, facere, feci, factum" l2="faire" />
+<mot l1="frango, is, ere, fregi, fractum" l2="briser" />
+<mot l1="gero, is, ere, gessi, gestum" l2="faire" />
+<mot l1="habeo, es, ere, habui, habitum" l2="avoir" />
+<mot l1="hortor, aris, ari, hortatus sum" l2="exhorter" />
+<mot l1="impero, as, are, imperavi, imperatum" l2="commander/ordonner" />
+<mot l1="incipio, is, incipere, incoepi, incoeptum" l2="commencer" />
+<mot l1="intellego, is, ere, intellexi, intellectum" l2="comprendre" />
+<mot l1="interficio, is, interficere, interfeci, interfectum" l2="tuer" />
+<mot l1="invenio, is,ire, inveni, inventum" l2="trouver" />
+<mot l1="jacio, is, jacere, jeci, jactum" l2="jeter" />
+<mot l1="jubeo, es, ere, jussi, jussum" l2="ordonner" />
+<mot l1="laboro, as, are, laboravi, laboratum" l2="travailler/peiner" />
+<mot l1="lego, is, ere, legi, lectum" l2="lire/choisir" />
+<mot l1="loquor, eris, loqui, locutus sum" l2="parler" />
+<mot l1="maneo, es, ere, ere, monui, monitum" l2="avertir/conseiller" />
+<mot l1="miror, aris, ari, miratus sum" l2="regarder avec étonnement" />
+<mot l1="metuo, is, metuere, metui, metutum" l2="craindre" />
+<mot l1="moneo, es, ere, monui, monitum" l2="avertir/conseiller" />
+<mot l1="morior, moreris, mori, mortuus sum" l2="mourir" />
+<mot l1="moveo, es,ere, movi motum" l2="faire bouger/émouvoir" />
+<mot l1="nuntio, as, nuntiare, nuntiavi, nuntiatum" l2="annoncer" />
+<mot l1="opto, as, are, optavi, atum" l2="souhaiter" />
+<mot l1="orior, oriris, oriri, ortus sum" l2="se lever/naître" />
+<mot l1="ostendo, is, ere, ostendi, ostensum" l2="montre" />
+<mot l1="paro, as, are, paravi, paratum" l2="préparer" />
+<mot l1="patior, pateris, pati, passus sum" l2="souffrir" />
+<mot l1="peto, is, ere, peti(v)i, petitum" l2="gagner un lieu/demander" />
+<mot l1="pono, is, ere, posui, positum" l2="poser/installer/servir" />
+<mot l1="praesto, as, are, praestiti, praestatum" l2="être supérieur/montrer" />
+<mot l1="premo, is, ere, pressi, pressum" l2="écraser/opprimer" />
+<mot l1="pugno, as, are, pugnavi, pugnatum" l2="combattre" />
+<mot l1="puto, as, are, putavi, putatum" l2="penser" />
+<mot l1="rapio, is, rapere, rapui, raptum" l2="enlever/dérober" />
+<mot l1="relinquo, is, ere, reliqui, relictum" l2="laisser/abandonner" />
+<mot l1="respondeo, es, ere, respondi, responsum" l2="répondre" />
+<mot l1="scio, is, ire, sci(v)i, scitum" l2="savoir" />
+<mot l1="scribo, is, ere, scripsi, scriptum" l2="écrire" />
+<mot l1="sequor, eris, sequi, secutus sum" l2="suivre" />
+<mot l1="statuo, is, statuere, statui, satutum" l2="décider" />
+<mot l1="suadeo, es, ere, suasi,suasum" l2="persuader" />
+<mot l1="teneo, es, ere, tenui, tensum" l2="tenir" />
+<mot l1="timeo, es, timere, timui,-" l2="craindre" />
+<mot l1="trado, is, ere, tradidi, traditum" l2="rapporter/livrer" />
+<mot l1="traho, is, ere, traxi, tractum" l2="traÓner,tirer" />
+<mot l1="utor, eris, uti, usus sum" l2="se servir de" />
+<mot l1="venio, is, ire, veni, ventum" l2="venir" />
+<mot l1="video, es, ere, vidi, visum" l2="voir" />
+<mot l1="vinco, is, ere, vici, victum" l2="vaincre" />
+<mot l1="vivo, is, ere, vixi, victum" l2="vivre" />
+<mot l1="voco, as, are, vocavi, vocatum" l2="appeler" />
+<mot l1="licet, licere, licuit" l2="il est permis" />
+<mot l1="oportet, oportere, oportuit" l2="il faut" />
+<mot l1="sum, es, esse, fui,-" l2="itre" />
+<mot l1="possum, potes, posse, potui,-" l2="pouvoir" />
+<mot l1="eo, is, ire, i(v)i, itum" l2="aller" />
+<mot l1="fero, fers, ferre, tuli, latum" l2="porter" />
+<mot l1="volo, vis, velle, volui,-" l2="vouloir" />
+<mot l1="nolo, non vis, nolle, nolui,-" l2="ne pas vouloir" />
+<mot l1="malo, mavis, malle, malui,-" l2="préférer" />
+</vocabulaire>

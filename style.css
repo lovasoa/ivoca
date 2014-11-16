@@ -1,0 +1,153 @@
+@font-face {
+	font-family: "Linux Libertine";
+	src: url('linux-libertine.otf');
+}
+
+body
+{
+	font-family: "Linux Libertine";
+	background-color: black;
+	background-image:url(space.jpg);
+	color:black;
+	margin:0;
+}
+
+header {
+    width:100%;
+    margin:0;
+    background-color:rgba(0,0,0,0.5);
+    color:grey;
+}
+header a {
+    color:#EEE;
+	text-decoration:none;
+	font-size:20px;
+}
+    
+input{
+	font-family: "Linux Libertine";
+	font-size:1em;
+	border-radius:7px;
+
+	margin-bottom:20px;
+	margin-top:20px;
+
+	width:70%;
+	min-width:250px;
+	margin:auto;
+
+	border:1px solid black;
+}
+
+.score{
+	/*position:absolute;
+	bottom:0;*/
+	color:white;
+	text-align:center;
+}
+
+.formulaire{
+	background-color: #077;
+	background-image:linear-gradient(#AAA,#077);
+
+	border-radius:7px;
+
+
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+
+	margin-bottom:20px;
+
+	text-align:center;
+
+	border: 1px solid white;
+	padding:20px;
+	font-size:2em;
+}
+
+.formulaire > #boutonValider {
+/*On n'affiche pas le bouton valider dans l'interrogateur de vocabulaire
+La gestion de la validation se fait par javascript*/
+    display:none;
+}
+
+#resultat
+{
+	margin-top:80px;
+	background-color: #077;
+	background:linear-gradient(#AAA, #077);
+
+	border-radius:7px;
+
+    width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+
+	text-align:center;
+	font-size:40px;
+
+	border: 1px solid white;
+	padding:20px;
+}
+
+#consigne, .formulaire label {
+	font-size:16px;
+}
+
+#afficherReponse {
+	font-size:12px;
+}
+
+#correction{
+	display:none;
+}
+
+#reponse{
+	color : #0F0;
+	text-decoration:none;
+}
+
+footer {
+    font-size:14px;
+    color:grey;
+}
+
+/*Pour les petits écrans (les mobiles par exemple)*/
+@media (max-width: 500px) {
+    html, body {
+        padding:0; margin:0;
+    }
+    .formulaire, #resultat {
+        margin-top:2px;margin-bottom:5px;
+        margin-left:0;margin-right:0;
+        padding:2px;
+        line-height:0.9;
+
+	    width:95%;
+	    margin-left:auto;
+	    margin-right:auto;
+
+        max-width:none;
+        min-width:none;
+        word-wrap:break-word;
+    }
+    #afficherReponse {
+        display:inline-block;
+    }
+    #consigne, .formulaire label {
+	    font-size:14px;
+        margin:0; padding:0;
+    }
+    #question {
+        font-size:25px;
+    }
+    .formulaire p {
+        padding:0;
+        margin:0;
+    }
+    .formulaire input {
+        width:100%;
+    }
+}
