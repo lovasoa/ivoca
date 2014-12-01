@@ -1,0 +1,3 @@
+[submodule "anylang"]
+	path = anylang
+	url = git@github.com:lovasoa/anylang.git
