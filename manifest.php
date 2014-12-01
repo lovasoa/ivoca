@@ -11,7 +11,7 @@ $resources = Array("index.php",
 		"hebrophir.js",
 		"ivoca.js",
 		"space.jpg",
-		"../jQuery/jquery.min.js");
+		"jquery.min.js");
 
 // Add the correct Content-Type for the cache manifest
 header('Content-Type: text/cache-manifest');

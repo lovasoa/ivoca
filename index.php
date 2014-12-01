@@ -57,7 +57,7 @@ if ($handle = opendir($dossier)) {
 <a class="edit" href="edivoca.html">Créer une nouvelle liste de vocabulaire</a>
 </div>
 
-<script src="../jQuery/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
 <script>
 var appCache = window.applicationCache;
 if(!navigator.onLine)$(".edit").remove();
