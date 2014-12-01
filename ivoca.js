@@ -61,6 +61,9 @@ function reinitialiser(){
     //Le champ de texte pour saisir sa réponse se vide, et obtient le focus.
 	//On enlève la méthode de saisie d'alphabet étranger (qu'elle soit là ou pas)
 	$("#texte").val("").focus();
+
+        //On enlève le texte translitéré
+        $("#anylang-trans").html("");
 }
 
 //Ceci est la fonction de mise à jour du pourcentage de bonnes réponses:
