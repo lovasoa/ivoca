@@ -1,5 +1,10 @@
 <?php
-if ($_POST["password"] !== "kangourou") die("Mot de passe incorrect");
+if (password_verify(
+        $_POST["password"],
+        "$2y$10$40siRZjFTTbxJC8jQRvR6u1VWcOEDAItZgoWOpll2pKo9NMAKulBO"
+    ) !== TRUE) {
+        die("Mot de passe incorrect");
+}
 
 $filename = $_POST['filename'];
 $xml = $_POST['xml'];
