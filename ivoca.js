@@ -12,7 +12,6 @@ var bonDuPremierCoup = true;
 function nouveauMot() {
 
 	//On commence par tout remettre à zéro
-	hebrophir.disableAutoTrans($("#texte"));
 	reinitialiser();
 
 	//On choisi notre mot de façon à avoir plus de chances de tirer un mot du début de la liste
@@ -38,10 +37,9 @@ function nouveauMot() {
 	if (traduireEn){
 		$("#langue").text("en "+traduireEn);		//3. l'instruction (la langue dans laquelle on doit traduire)
 	}
-    //Si la réponse est dans un autre alphabet, affiche un input spéciel
-    if (traduireEn === "hébreu") {
-        hebrophir.autoTransliterate($("#texte")).focus();
-    }
+
+        $("#texte")[0].dataset.anylangFrom = voca.langues[nbr2%2];
+        $("#texte")[0].dataset.anylangTo   = voca.langues[nbr2-1];
 
 	bonDuPremierCoup = true; //On commence un nouveau mot, l'utilisateur ne s'est pas encore trompé
 }
@@ -238,7 +236,7 @@ function valider(){
 	voca.nbrQuestions++;
 
 	//On stocke la réponse de l'utilisateur dans Freponse (F comme faux)
-	var Freponse = $("#texte").val();
+	var Freponse = $("#texte")[0].dataset.anylangEquiv;
 	//Et on va chercher la bonne réponse dans la div de réponse.
 	var Vreponse = 	$("#reponse").text().split("/");
 	/*Le split() sert à séparer les différentes réponses possibles

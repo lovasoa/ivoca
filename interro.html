@@ -27,8 +27,13 @@
 <form class="formulaire" id="formulaire" action="javascript:void(0)">
 
 <p>
-		<label  for="texte">Votre réponse : </label><br />
-		<input type="text" name="texte" id="texte" autocomplete="off" autofocus/>
+    <label  for="texte">Votre réponse : </label><br />
+    <input type="text" name="texte" id="texte" autocomplete="off"
+        autofocus
+        data-anylang-from=""
+        data-anylang-to=""
+        data-anylang-target="anylang-trans" />
+    <span id="anylang-trans"></span>
 </p>
 	<input type="submit" id="boutonValider" value="Valider"/>
 </form>
