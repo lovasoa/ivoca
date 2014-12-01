@@ -1,5 +1,4 @@
 $(function(){
-    var hebrewName = "hébreu";
     var filename;
     var $l2 = $("#l2"),
         $l1 = $("#l1"),
@@ -17,13 +16,7 @@ $(function(){
                             .not($lastCouple.find("input"))
                             .removeClass(oldLang)
                             .addClass(langName);
-            //lang n changed, so we may need to add
-            //or remove transliteration from the inputs
-            if (langName === hebrewName) {
-                hebrophir.autoTransliterate($inputs);
-            }else if (oldLang === hebrewName) {
-                hebrophir.disableAutoTrans($inputs);
-            }
+            $inputs.attr("data-anylang-to", langName);
             this.langs[n-1] = langName;
         },
         getLang : function (n) {
@@ -42,9 +35,8 @@ $(function(){
             var $input = $newLine.find(".l"+numLang)
                 .val(words[i]||'')
                 .addClass(lang);
-            if (lang === hebrewName) {
-                hebrophir.autoTransliterate($input);
-            }
+            $input.attr("data-anylang-to", lang);
+            Anylang.attach($input[0], $newLine.find("span.anylang-trans")[0]);
         }
         $newLine.find("input:first").focus();
         $lastCouple.before($newLine);
@@ -129,7 +121,7 @@ $(function(){
                 var $input = $this.find(".l"+i);
                 var val = $input.val();
                 if (val) numLangs++;
-                var originallang = $input.data("originallang") || $input.attr("data-originallang");
+                var originallang = $input.attr("data-anylang-equiv");
                 $mot.attr("l"+i, originallang || val);
                 if (originallang) $mot.attr("l"+i+"-trans", val);
             }

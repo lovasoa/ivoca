@@ -38,8 +38,7 @@ function nouveauMot() {
 		$("#langue").text("en "+traduireEn);		//3. l'instruction (la langue dans laquelle on doit traduire)
 	}
 
-        $("#texte")[0].dataset.anylangFrom = voca.langues[nbr2%2];
-        $("#texte")[0].dataset.anylangTo   = voca.langues[nbr2-1];
+        $("#texte").attr("data-anylang-to",   voca.langues[nbr2-1]);
 
 	bonDuPremierCoup = true; //On commence un nouveau mot, l'utilisateur ne s'est pas encore trompé
 }
@@ -236,7 +235,7 @@ function valider(){
 	voca.nbrQuestions++;
 
 	//On stocke la réponse de l'utilisateur dans Freponse (F comme faux)
-	var Freponse = $("#texte")[0].dataset.anylangEquiv;
+	var Freponse = $("#texte").attr("data-anylang-equiv");
 	//Et on va chercher la bonne réponse dans la div de réponse.
 	var Vreponse = 	$("#reponse").text().split("/");
 	/*Le split() sert à séparer les différentes réponses possibles
