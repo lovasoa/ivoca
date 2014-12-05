@@ -25,7 +25,8 @@ function nouveauMot() {
 
 	//On va choisir si on pose la question en français ou dans la langue étrangère (l1 ou l2):
 
-	var nbr = Math.round(Math.random()) + 1;	//On choisi un nombre au hasard: 1 ou 2
+	//On choisi la langue du mot que l'on va demander de traduire
+	var nbr = Configuration.getLangueOrig() || Math.round(Math.random()) + 1;
 
     //1. le mot à traduire
     $("#question").text(elementActuel["l"+nbr]);
@@ -342,6 +343,13 @@ function simplifier(verbe){
 }
 
 });//Fin du $(document).ready
+
+
+Configuration = {
+    getLangueOrig : function getLangueOrig() {
+        return this.langueOrig;
+    }
+}
 
 window.onload = function () {
     //Va en haut de la page (cache la barre d'adresse sur mobile)
