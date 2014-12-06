@@ -347,9 +347,18 @@ function simplifier(verbe){
 
 Configuration = {
     getLangueOrig : function getLangueOrig() {
-        return this.langueOrig;
+        return parseInt(localStorage.getItem("ivoca.langueOrig"));
+    },
+    setLangueOrig : function setLangueOrig(numLangue) {
+        localStorage.setItem("ivoca.langueOrig", numLangue);
     }
 }
+$("#afficherConfiguration").click(function(){
+    $("#configuration").toggle();
+});
+$("#langueOrig").change(function(){
+    Configuration.setLangueOrig($(this).val());
+});
 
 window.onload = function () {
     //Va en haut de la page (cache la barre d'adresse sur mobile)

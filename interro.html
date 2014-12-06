@@ -14,7 +14,19 @@
 <header>
     <a href="index.php">Ivoca</a> -  Interrogation de vocabulaire
     <a href="javascript:void(0)" id="recommencer" >↺</a>
+    <a href="javascript:void(0)" id="afficherConfiguration" >⚙</a>
 </header>
+
+<form id="configuration" action="#" class="formulaire" style="display:none">
+    <label>
+        Demander de traduire des mots:
+        <select id="langueOrig">
+            <option value="0" selected>entre les deux langues, au hasard</option>
+            <option value="1">de la langue 1 vers la langue 2</option>
+            <option value="2">de la langue 2 vers la langue 1</option>
+        </select>
+    </label>
+</form>
 
 <div  id="resultat" >
 	<p id="consigne" >Traduisez <span id="langue" ></span> : </p>
